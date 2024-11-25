@@ -11,7 +11,7 @@ public class Main {
         pizza = new PepperoniPizza(pizza);
         System.out.println(pizza.getDescription() + "- $"+pizza.getCost());
         pizza = new MushroomPizza(pizza);
-        
+
         System.out.println(pizza.getDescription()+ "- $"+pizza.getCost());
     }
 }
